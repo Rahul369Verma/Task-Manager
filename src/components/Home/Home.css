@@ -1,0 +1,15 @@
+.radius{
+  border-radius: 60px;
+}
+
+.todo{
+  background-color: rgb(255, 255, 157);
+}
+
+.inprogress{
+  background-color: #97d7d5;
+}
+
+.done{
+  background-color: #bb85f5;
+}
