@@ -62,14 +62,9 @@ const Navigator = ({ archive, setArchive, setSearch }) => {
       <Navbar className="outerNavbar" expand="sm" fixed="top" collapseOnSelect>
         <Container style={{ display: "flex" }}>
           <Navbar.Brand className="mr-4" href="/">
-            <img
-              src="/download.webp"
-              width="150"
-              height="30"
-              style={{ "marginRight": "10px" }}
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
+            <h2>
+              Sourcenode
+            </h2>
           </Navbar.Brand>
           <Navbar.Toggle style={{ backgroundColor: "" }} aria-controls="basic-navbar-nav" />
           <Nav className="me-auto">
