@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate } from "react-router-dom";
 import { Container, Dropdown } from "react-bootstrap";
 import Navigator from '../TopNavbar/Navigator'
-import AddHotel from '../AddHotel/AddHotel';
+import AddHotel from '../AddTask/AddTask';
 import Api from '../../Api/Api.js';
 import "./Home.css"
 import NestedDropdown from './NextedDropdown';

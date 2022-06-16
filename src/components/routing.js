@@ -8,9 +8,6 @@ import Home from "./Home/Home";
 import Login from "./Login/Login";
 import Loader from "./loader/loader";
 import Register from "./Register/Register";
-import Hotel from "./Hotel/Hotel";
-import History from "./History/History";
-
 
 const Routing = () => {
   const [userData, setUserData] = useState(null);
@@ -69,12 +66,6 @@ const Routing = () => {
         />
         <Route exact path="/"
           element={userData && userData._id ? <Home /> : (userData === false ? <Login /> : <Loader />)}
-        />
-        <Route exact path="/history"
-          element={userData && userData._id ? <History /> : (userData === false ? <Login /> : <Loader />)}
-        />
-        <Route exact path="/hotel/:id"
-          element={userData && userData._id ? <Hotel /> : (userData === false ? <Login /> : <Loader />)}
         />
       </Routes>
     </Router>
